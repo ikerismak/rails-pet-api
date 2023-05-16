@@ -5,22 +5,21 @@
 ## Rails REST API API-PETS
 
 ## Ejercicio Práctico - Pet Store API
-- Desarrolle un API REST conforme a la siguiente definición
-  [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml):[EndPoints according with OpenAPI](#ENDPPOINTS)
+- Desarrolle un API REST conforme a la siguiente definición OpenAPI: [EndPoints according with OpenAPI](#ENDPPOINTS)
 
-- El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc):[ruby and ruby on rails](#Versions)
+- El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc): [ruby and ruby on rails](#Versions)
 
-- Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc).:[Postgresql with ActiveRecord](#gems)
+- Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc). [Postgresql with ActiveRecord](#gems)
 
-- La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown.[Documentation](#GitHub)
+- La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown. [Documentation](#GitHub)
 
 
 ## Puntos Extras
-- Generar pruebas unitarias/integrales utilizando un framework de pruebas.[Minitest](#minitest)
+- Generar pruebas unitarias/integrales utilizando un framework de pruebas. [Minitest](#minitest)
 
-- Utilizar un linter de acuerdo al lenguaje de programación seleccionado.[rubocop](#gems)
+- Utilizar un linter de acuerdo al lenguaje de programación seleccionado. [rubocop](#gems)
 
-- Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/ [Rubycritic](#Rubycritic)
+- Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/ opcion elejida: [Rubycritic](#Rubycritic)
 
 - Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/[Postman](#Postman:)
 
@@ -31,6 +30,36 @@
 - Ruby: 3.1.4
 - Rails: 7.0.4
 - Gems
+
+## Start
+
+1. install ruby on your own PC and operative system and check de version
+
+
+```shell
+ruby --version
+```
+
+2. Install rails on your own PC and operative system
+
+```shell
+rails --version
+```
+
+## Open the project file on you favorite text editor
+
+
+
+
+3. Install gem bundler
+
+
+```shell
+gem install bundler
+```
+
+
+
 ## gems:
 
 1. pg 1.1: Database adapter gem for PostgreSQL. Provides support for connecting to a PostgreSQL database in Rails.
@@ -50,7 +79,13 @@
 bundle install
 
 ```
+## Set the database files
 
+1. Find the configuration file, you can find it in the root:
+
+2. Find the dtabase.yml file and open it
+
+3. fill the field as required, check the example image below
 ## Commands to initialize the database:
 
 - Run the following commands in the terminal to create, migrate, and seed the database:
