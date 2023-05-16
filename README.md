@@ -51,7 +51,7 @@ rails --version
 
 
 
-3. Install gem bundler
+3. Install gem bundler and run this command on your own terminal, check the files path
 
 
 ```shell
