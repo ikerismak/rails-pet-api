@@ -36,7 +36,7 @@
 
 - Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/
 
-[Rubycritic](#Rubycritic)
+[Postman](#Postman:)
 
 - Documentar los endpoints con alguna herramienta que genere páginas estáticas de documentación. Ej. http://apidocjs.com/
 
@@ -218,11 +218,6 @@ null
 ```
 
 ## Postman:
-
-**¿Qué es Postman?**
-
-- Postman es una aplicación que te permite enviar y recibir solicitudes HTTP y trabajar con APIs. Puedes realizar solicitudes GET, POST, PUT, DELETE y otras, así como probar y depurar tus API.
-
 ## Postman Instructions
 
 ### Introduction:
