@@ -134,6 +134,8 @@ rubycritic
 
 ##Screenshot
 
+<img width="717" alt="Captura de pantalla 2023-05-16 a la(s) 0 43 35" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/98ee65a5-e419-4f4e-a308-8b91d1893e24">
+
 - This will generate a report that helps identify problematic areas in your code and improve its quality.
 
 **NOTE:** Remember to execute the commands in the root of your Rails project!
