@@ -1,25 +1,43 @@
 # README
 
-
+## GitHub
 [github repository](https://github.com/ikerismak/rails-pet-api)
 ## Rails REST API API-PETS
 
 ## Ejercicio Práctico - Pet Store API
-- Desarrolle un API REST conforme a la siguiente definición:
+- Desarrolle un API REST conforme a la siguiente definición
   [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml):
   [EndPoints according with OpenAPI](#ENDPPOINTS)
 
 - El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc):
+[ruby and ruby on rails](#Versions)
 
 - Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc).:
 
+[Postgresql with ActiveRecord](#gems)
+
 - La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown.
+
+[Documentation](#GitHub)
+
 
 ## Puntos Extras
 - Generar pruebas unitarias/integrales utilizando un framework de pruebas.
+
+[Minitest](#minitest)
+
 - Utilizar un linter de acuerdo al lenguaje de programación seleccionado.
+
+[rubocop](#gems)
+
 - Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/
+
+[Rubycritic](#Rubycritic)
+
 - Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/
+
+[Rubycritic](#Rubycritic)
+
 - Documentar los endpoints con alguna herramienta que genere páginas estáticas de documentación. Ej. http://apidocjs.com/
 
 ## Versions
@@ -27,9 +45,7 @@
 - Ruby: 3.1.4
 - Rails: 7.0.4
 - Gems
-## Below is a description of each mentioned gem:
-
-
+## gems:
 
 1. pg 1.1: Database adapter gem for PostgreSQL. Provides support for connecting to a PostgreSQL database in Rails.
 2. faker: Gem used for generating random test data. Useful for populating the database with dummy data during development or testing.
@@ -37,6 +53,7 @@
 4. rubycritic: Gem that performs static code analysis of Ruby source code and provides code quality reports. Helps identify problematic areas and improve code readability and      maintainability.
 5. rubocop: Gem that acts as a linter and static code analyzer for Ruby. Helps maintain consistent code style and detects potential code quality issues.
 6.Database: The project will use PostgreSQL as the database.
+7.ActiveRecord
 
 ## Commands to install dependencies:
 
@@ -64,19 +81,28 @@ rails db:seed
 ```
 
 ## Testing:
+### minitest
+
+- Minitest is a testing framework that comes bundled with Ruby and is commonly used for writing tests in Rails applications. It provides a simple and intuitive syntax for defining and running tests, making it easy to ensure the correctness of your code.
+
+Minitest follows the xUnit style of testing, where tests are organized into test classes and individual test methods. Each test method typically focuses on testing a specific behavior or functionality of your code. Minitest provides a set of assertions that you can use to make assertions about the expected behavior of your code.
 ### Commands to run tests:
 - Run the following command in the terminal to execute the project's tests:
 
 ```shell
 rails test
 ```
+### Rubycritic
 
+RubyCritic is a code quality analysis tool for Ruby projects. It helps you identify areas of improvement in your codebase by providing insightful metrics, visualizations, and suggestions for refactoring.
 ## Command to run Rubycritic
 Run the following command in the terminal to execute Rubycritic and generate code quality reports:
 
 ```shell
 rubycritic
 ```
+
+##Screenshot
 
 - This will generate a report that helps identify problematic areas in your code and improve its quality.
 
