@@ -40,8 +40,6 @@ rails db:migrate
 ```shell
 rails db:seed
 ```
-```shell
-```
 
 ## Testing:
 ### Commands to run tests:
@@ -76,7 +74,9 @@ Run the following command in the terminal to execute Rubycritic and generate cod
 - Execute this command in the terminal while being in the root directory of your Rails project. The server will start, and you can access your application at **http://localhost:3000**.
 
 **Make sure to have all the dependencies installed and the database properly configured before starting the server.**
-
+All endpoints were developed  according to the specifications **OpenAPI-Specification**
+you can find the documentation here:
+[OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml)
 ## Endpoint to retrieve all pets:
 
 ```shell
@@ -158,14 +158,11 @@ Run the following command in the terminal to execute Rubycritic and generate cod
  ```shell
  http://[::1]:3000/pets/
  ```
-Method: GET
-Description: Returns a 201 "created" status but a null data, according to the specifications in the API CONVENTION YAML file.
-Example response:
+- Method: GET
+- Description: Returns a 201 "created" status but a null data, according to the specifications in the API CONVENTION YAML file.
+- Example response:
 
 ```json
 null
 ```
-Remember, these are just examples, and you can adjust the endpoints according to your project's needs.
 
-
-# rails-pet-api
