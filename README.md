@@ -6,37 +6,23 @@
 
 ## Ejercicio Práctico - Pet Store API
 - Desarrolle un API REST conforme a la siguiente definición
-  [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml):
-  [EndPoints according with OpenAPI](#ENDPPOINTS)
+  [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml):[EndPoints according with OpenAPI](#ENDPPOINTS)
 
-- El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc):
-[ruby and ruby on rails](#Versions)
+- El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc):[ruby and ruby on rails](#Versions)
 
-- Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc).:
+- Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc).:[Postgresql with ActiveRecord](#gems)
 
-[Postgresql with ActiveRecord](#gems)
-
-- La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown.
-
-[Documentation](#GitHub)
+- La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown.[Documentation](#GitHub)
 
 
 ## Puntos Extras
-- Generar pruebas unitarias/integrales utilizando un framework de pruebas.
+- Generar pruebas unitarias/integrales utilizando un framework de pruebas.[Minitest](#minitest)
 
-[Minitest](#minitest)
+- Utilizar un linter de acuerdo al lenguaje de programación seleccionado.[rubocop](#gems)
 
-- Utilizar un linter de acuerdo al lenguaje de programación seleccionado.
+- Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/ [Rubycritic](#Rubycritic)
 
-[rubocop](#gems)
-
-- Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/
-
-[Rubycritic](#Rubycritic)
-
-- Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/
-
-[Postman](#Postman:)
+- Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/[Postman](#Postman:)
 
 - Documentar los endpoints con alguna herramienta que genere páginas estáticas de documentación. Ej. http://apidocjs.com/
 
