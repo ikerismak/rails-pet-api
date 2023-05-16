@@ -124,6 +124,8 @@ you can find the documentation here:
   ]
 }
 ```
+![image](https://github.com/ikerismak/rails-pet-api/assets/70924158/346fee4f-12d2-4f3b-8e76-4dcdfcf63e7e)
+
 ## Endpoint to retrieve a limited number of pets:
 
 ```shell
