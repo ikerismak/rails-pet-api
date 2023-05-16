@@ -124,7 +124,6 @@ you can find the documentation here:
   ]
 }
 ```
-![image](https://github.com/ikerismak/rails-pet-api/assets/70924158/346fee4f-12d2-4f3b-8e76-4dcdfcf63e7e)
 
 ## Endpoint to retrieve a limited number of pets:
 
@@ -261,7 +260,7 @@ null
 ## Screen shot
 ## BONUS Endpoint create a new pet with a body request:
 
-# this bonus are included in the postman file y this case you only have tu run de last post request on the button **send**
+**this bonus are included in the postman file y this case you only have tu run de last post request on the button** send
 
  ```shell
  http://[::1]:3000/pets/?name=dido
@@ -270,7 +269,6 @@ null
 - Description: Returns a 201 "created" status but a null data, according to the specifications in the API CONVENTION YAML file.
 - Example response:
 
-## Screen shot
 
 ```json
 {
