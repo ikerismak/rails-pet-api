@@ -1,6 +1,8 @@
 # README
 
-Rails REST API API-PETS
+
+[github repository](https://github.com/ikerismak/rails-pet-api)
+## Rails REST API API-PETS
 
 ## Versions
 
