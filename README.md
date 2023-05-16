@@ -22,7 +22,7 @@ Rails REST API API-PETS
 
 ```shell
 
-    bundle install
+bundle install
 
 ```
 
@@ -46,14 +46,14 @@ rails db:seed
 - Run the following command in the terminal to execute the project's tests:
 
 ```shell
-   rails test
+rails test
 ```
 
 ## Command to run Rubycritic
 Run the following command in the terminal to execute Rubycritic and generate code quality reports:
 
 ```shell
-   rubycritic
+rubycritic
 ```
 
 - This will generate a report that helps identify problematic areas in your code and improve its quality.
@@ -66,7 +66,7 @@ Run the following command in the terminal to execute Rubycritic and generate cod
 
 ```shell
 
-  rails server
+rails server
 
 ```
 
