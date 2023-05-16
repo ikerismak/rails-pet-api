@@ -1,0 +1,28 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: petstore_api_development
+
+  username: my_user_name
+
+
+  password: my_passoword
+
+
+test:
+  <<: *default
+  database: petstore_api_test
+  username: my_user_name
+  password: my_passoword
+
+
+production:
+  <<: *default
+  database: petstore_api_production
+  username: petstore_api
+  password: <%= ENV["PETSTORE_API_DATABASE_PASSWORD"] %>

@@ -70,6 +70,7 @@ gem install bundler
 5. **rubocop** : Gem that acts as a linter and static code analyzer for Ruby. Helps maintain consistent code style and detects potential code quality issues.
 6.**Database** : The project will use PostgreSQL as the database.
 7.ActiveRecord
+8.**rswag** Swagger is an open-source set of tools that allows for designing, building, documenting, and consuming APIs in an easy and efficient way. It provides a standardized approach to describe and document APIs, making it easier for development teams to collaborate and enabling API consumers to understand and use them quickly and accurately.
 
 ## Commands to install dependencies:
 
@@ -87,7 +88,7 @@ bundle install
 <img width="396" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 12" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/f5b8d3ba-4751-40b5-8105-e79e24eb7455">
 
 
-2. Find the dtabase.yml file and open it
+2. Find the dtabase.example.yml file, delete the example on the name part and open it
 
 <img width="358" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 50" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/a8f40173-9fbd-4b3e-9475-33dd648096ac">
 
@@ -248,6 +249,31 @@ you can find the documentation here:
 ```json
 null
 ```
+
+## Swagger
+
+### Documentation API tool
+
+- The core tool of Swagger is the **OpenAPI Specification** (formerly known as Swagger Specification), which is a machine-readable API description format in JSON or YAML. This specification outlines the endpoints, parameters, responses, data schemas, and other relevant information about the API.
+
+### try yourself following the next instructions below:
+
+1. Run the rails server
+
+```shell
+
+rails server
+
+```
+
+2. go to the next URL
+
+
+http://localhost:3000/api-docs/index.html
+
+3. test the endpoint as follows
+
+
 
 ## Postman:
 ## Postman Instructions

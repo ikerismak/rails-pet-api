@@ -26,6 +26,8 @@ gem 'rubycritic', require: false
 
 gem 'rubocop', require: false
 
+gem 'rswag'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
