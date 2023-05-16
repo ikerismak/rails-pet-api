@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe PetsController, type: :controller do
   describe 'GET #hello' do
     it 'returns a hello message' do

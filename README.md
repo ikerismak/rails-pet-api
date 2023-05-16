@@ -170,3 +170,118 @@ you can find the documentation here:
 null
 ```
 
+## Postman:
+
+**¿Qué es Postman?**
+
+- Postman es una aplicación que te permite enviar y recibir solicitudes HTTP y trabajar con APIs. Puedes realizar solicitudes GET, POST, PUT, DELETE y otras, así como probar y depurar tus API.
+
+## Postman Instructions
+
+### Introduction:
+Postman is a collaboration and API development tool that allows you to make HTTP requests to servers and test the responses. It provides a user-friendly interface to send requests, configure parameters, and view the server's response. In this guide, you will find instructions on installing Postman, opening the application, and performing API testing. Additionally, screenshots of the results obtained from Postman tests are provided for each endpoint.
+
+### What is Postman?
+Postman is a collaboration and API development tool that allows you to make HTTP requests to servers and test the responses. You can send GET, POST, PUT, DELETE, and other types of requests, as well as test and debug your APIs.
+
+### Installation of Postman:
+To install Postman, follow these steps:
+- Visit the official Postman website: [https://www.postman.com/](https://www.postman.com/)
+- Download the version for your operating system (Windows, macOS, Linux).
+- Run the downloaded file and install Postman following the on-screen instructions.
+
+### Opening Postman:
+After installation, you can open Postman by following these steps:
+- Look for the Postman icon on your desktop or in the list of applications in your operating system.
+- Double-click the icon to open the application.
+
+### Postman Interface:
+Once Postman is open, you will see the main interface of the application.
+- At the top, you will find the navigation bar with options like "Collections", "Runner", "Workspaces", etc.
+- In the center of the screen, you will see the main area where you can enter the API URL and configure the requests.
+- On the right, you will find additional panels to configure parameters, headers, body, etc.
+
+### Making a Request in Postman:
+To make a request in Postman, follow these steps:
+- Enter the API URL in the field on the navigation bar or select a saved request from your collections.
+- Configure parameters, headers, and the request body as needed.
+- Click the "Send" button to send the request to the server.
+- You will see the server's response at the bottom of the screen, including the status code, headers, and response body.
+
+### Opening Files in Postman:
+Postman allows you to import and export files such as collections, requests, environments, etc.
+To open a file in Postman, follow these steps:
+- Click the "Import" button in the top left corner of the interface.
+- Select the type of file you want to import, such as a collection, request, environment, etc.
+- Choose the file from your file system and click "Open".
+- The file will be imported and available for use in Postman.
+
+### Results and Screenshots:
+In the following sections, you will find detailed instructions and screenshots of the results obtained from Postman tests for each endpoint. These screenshots will provide visual representations of the responses received from the server, allowing you to analyze and validate the API's functionality.
+
+With these instructions, you should be able to install Postman, open the application, and start making HTTP requests to your APIs to test and debug them. The included screenshots will assist you in understanding the expected results and comparing them with the actual responses. Let's get started with API testing using Postman!
+
+## Endpoint to retrieve all pets:
+
+```shell
+
+  http://[::1]:3000/pets
+
+```
+
+- Method: GET
+- Description: Retrieves a paginated list of all pets.
+- Example response:
+
+## Screenshot
+
+```shell
+http://[::1]:3000/pets/?limit=2
+
+```
+- Method: GET
+- Query Parameters: limit (optional, specifies the maximum number of pets to return)
+- Description: Retrieves a paginated list of a limited number of pets.
+- Example response:
+
+## Screenshot
+
+## Endpoint with null response:
+
+ ```shell
+ http://[::1]:3000/pets/
+ ```
+- Method: GET
+- Description: Returns a 201 "created" status but a null data, according to the specifications in the API CONVENTION YAML file.
+- Example response:
+
+```json
+null
+```
+## Screen shot
+## BONUS Endpoint create a new pet with a body request:
+
+# this bonus are included in the postman file y this case you only have tu run de last post request on the button **send**
+
+ ```shell
+ http://[::1]:3000/pets/?name=dido
+ ```
+- Method: GET
+- Description: Returns a 201 "created" status but a null data, according to the specifications in the API CONVENTION YAML file.
+- Example response:
+
+## Screen shot
+
+```json
+{
+    "message": "Pet created successfully",
+    "pet": {
+        "id": 105,
+        "name": "dido",
+        "created_at": "2023-05-16T06:39:55.368Z",
+        "updated_at": "2023-05-16T06:39:55.368Z"
+    }
+}
+
+```
+## Screenshot

@@ -15,13 +15,24 @@ class PetsController < ApplicationController
       description: 'A paged array of pets',
       content: limited_pets
     }
-  rescue StandardError => e
+  rescue StandardError
     render json: { code: 400, message: 'unexpected error' }, status: :bad_request
   end
 
   def createPets
-    render json: nil, status: :created
-  rescue StandardError => e
+    pet_params_name = params[:name]
+
+    if pet_params_name.nil?
+      render json: { description: nil, status: :created }
+    else
+      new_pet = Pet.new(name: pet_params_name)
+      if new_pet.save
+        render json: { message: 'Pet created successfully', pet: new_pet }, status: :created
+      else
+        render json: { message: 'Failed to create pet' }, status: :unprocessable_entity
+      end
+    end
+  rescue StandardError
     render json: { code: 400, message: 'unexpected error' }, status: :unprocessable_entity
   end
 
