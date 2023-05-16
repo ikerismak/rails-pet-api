@@ -88,9 +88,9 @@ bundle install
 <img width="396" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 12" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/f5b8d3ba-4751-40b5-8105-e79e24eb7455">
 
 
-2. Find the dtabase.example.yml file, delete the example on the name part and open it
+2. Find the dtabase.example.yml file, delete the ".example" on the name part and open it
 
-<img width="358" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 50" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/a8f40173-9fbd-4b3e-9475-33dd648096ac">
+![Captura de pantalla 2023-05-16 a la(s) 16 15 50](https://github.com/ikerismak/rails-pet-api/assets/70924158/94d062bb-1a87-4123-a6c6-d4c251566e12)
 
 3. fill the field as required, check the example image below
 
@@ -273,9 +273,34 @@ http://localhost:3000/api-docs/index.html
 
 3. test the endpoint as follows
 
+## HOME VIEW
 
+![Captura de pantalla 2023-05-16 a la(s) 16 12 20 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/aa69a8df-c6ad-46da-94c6-56eb4017231a)
 
-## Postman:
+## GET all pets
+
+![Captura de pantalla 2023-05-16 a la(s) 16 12 56 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/971e169b-0596-4c1c-9110-b5dec690441e)
+
+## GET all 100 Pets
+
+![Captura de pantalla 2023-05-16 a la(s) 16 12 39 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/424a6957-773e-4083-a867-229adcbc348c)
+
+## GET 10 pets
+
+![Captura de pantalla 2023-05-16 a la(s) 16 13 00 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/509dd79e-c7ac-451c-ad15-61f8e605164c)
+
+## POST
+
+![Captura de pantalla 2023-05-16 a la(s) 16 13 21 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/90522c64-956d-4177-992f-52b07986705a)
+
+## POST Response: 
+
+![Captura de pantalla 2023-05-16 a la(s) 16 13 19 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/58222042-c0a6-4cb0-b546-ec0c3a21af5d)
+
+## GET Pet by ID
+
+## Postman:![Captura de pantalla 2023-05-16 a la(s) 16 13 45 (2)](https://github.com/ikerismak/rails-pet-api/assets/70924158/ba77ba2f-51e5-40f5-bf1e-beb39b191c81)
+
 ## Postman Instructions
 
 ### Introduction:
