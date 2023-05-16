@@ -48,6 +48,7 @@ rails --version
 
 ## Open the project file on you favorite text editor
 
+<img width="1440" alt="Captura de pantalla 2023-05-16 a la(s) 10 08 19" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/4f5d9751-2f84-4fb7-9261-d2c366ef11eb">
 
 
 
@@ -62,12 +63,12 @@ gem install bundler
 
 ## gems:
 
-1. pg 1.1: Database adapter gem for PostgreSQL. Provides support for connecting to a PostgreSQL database in Rails.
-2. faker: Gem used for generating random test data. Useful for populating the database with dummy data during development or testing.
-3. minitest: Built-in unit testing framework in Rails. Provides tools and structures for writing and executing tests in the project.
-4. rubycritic: Gem that performs static code analysis of Ruby source code and provides code quality reports. Helps identify problematic areas and improve code readability and      maintainability.
-5. rubocop: Gem that acts as a linter and static code analyzer for Ruby. Helps maintain consistent code style and detects potential code quality issues.
-6.Database: The project will use PostgreSQL as the database.
+1. **pg 1.1** : Database adapter gem for PostgreSQL. Provides support for connecting to a PostgreSQL database in Rails.
+2. **faker** : Gem used for generating random test data. Useful for populating the database with dummy data during development or testing.
+3. **minitest** : Built-in unit testing framework in Rails. Provides tools and structures for writing and executing tests in the project.
+4. **rubycritic**: Gem that performs static code analysis of Ruby source code and provides code quality reports. Helps identify problematic areas and improve code readability and      maintainability.
+5. **rubocop** : Gem that acts as a linter and static code analyzer for Ruby. Helps maintain consistent code style and detects potential code quality issues.
+6.**Database** : The project will use PostgreSQL as the database.
 7.ActiveRecord
 
 ## Commands to install dependencies:
@@ -83,9 +84,17 @@ bundle install
 
 1. Find the configuration file, you can find it in the root:
 
+<img width="396" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 12" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/f5b8d3ba-4751-40b5-8105-e79e24eb7455">
+
+
 2. Find the dtabase.yml file and open it
 
+<img width="358" alt="Captura de pantalla 2023-05-16 a la(s) 10 01 50" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/a8f40173-9fbd-4b3e-9475-33dd648096ac">
+
 3. fill the field as required, check the example image below
+
+<img width="885" alt="Captura de pantalla 2023-05-16 a la(s) 10 06 02" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/6d1cfeef-881a-4092-bbd5-a3cddf0a65be">
+
 ## Commands to initialize the database:
 
 - Run the following commands in the terminal to create, migrate, and seed the database:
@@ -298,6 +307,8 @@ With these instructions, you should be able to install Postman, open the applica
 
 ## Screenshot
 
+<img width="721" alt="Captura de pantalla 2023-05-16 a la(s) 0 44 24" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/64c67ac4-8527-4025-b35a-99451cc11f3a">
+
 ```shell
 http://[::1]:3000/pets/?limit=2
 
@@ -308,6 +319,8 @@ http://[::1]:3000/pets/?limit=2
 - Example response:
 
 ## Screenshot
+
+<img width="1436" alt="Captura de pantalla 2023-05-16 a la(s) 0 44 44" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/7f4601e0-e4db-4e82-b41a-ab74b426045b">
 
 ## Endpoint with null response:
 
@@ -322,6 +335,9 @@ http://[::1]:3000/pets/?limit=2
 null
 ```
 ## Screen shot
+
+<img width="1440" alt="Captura de pantalla 2023-05-16 a la(s) 0 44 52" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/ae5506c0-8a36-46af-b2bd-62472dd58e3e">
+
 ## BONUS Endpoint create a new pet with a body request:
 
 **this bonus are included in the postman file y this case you only have tu run de last post request on the button** send
@@ -347,3 +363,7 @@ null
 
 ```
 ## Screenshot
+
+<img width="1440" alt="Captura de pantalla 2023-05-16 a la(s) 0 45 16" src="https://github.com/ikerismak/rails-pet-api/assets/70924158/83f5ec7e-1e4a-40e4-8d81-35460d84a0bf">
+
+
