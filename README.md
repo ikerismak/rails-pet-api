@@ -4,12 +4,32 @@
 [github repository](https://github.com/ikerismak/rails-pet-api)
 ## Rails REST API API-PETS
 
+## Ejercicio Práctico - Pet Store API
+- Desarrolle un API REST conforme a la siguiente definición:
+  [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml):
+  [EndPoints according with OpenAPI](#ENDPPOINTS)
+
+- El desarrollo se puede hacer en cualquier lenguaje de programación o framework. (Express, Ruby on Rails, .NET, Laravel, PHP, etc):
+
+- Siga el patrón de desarrollo MVC (Modelo, Vista, Controlador) y utilice un ORM (Object Relational Mapping) que asegure que su solución pueda utilizar cualquier motor de bases de    datos (MySQL, PostgreSQL, Microsoft SQL Server, etc).:
+
+- La solución debe contar con la documentación adecuada para una instalación desde cero, instrucciones para correr el proyecto y poder correr las pruebas sin asistencia. Utilice un README en formato markdown.
+
+## Puntos Extras
+- Generar pruebas unitarias/integrales utilizando un framework de pruebas.
+- Utilizar un linter de acuerdo al lenguaje de programación seleccionado.
+- Integrar al proceso de pruebas una herramienta para medir la cobertura de las pruebas. Ej: https://istanbul.js.org/
+- Generar un ejemplo para cada servicio en alguna herramienta como Postman. https://www.getpostman.com/
+- Documentar los endpoints con alguna herramienta que genere páginas estáticas de documentación. Ej. http://apidocjs.com/
+
 ## Versions
 
 - Ruby: 3.1.4
 - Rails: 7.0.4
 - Gems
 ## Below is a description of each mentioned gem:
+
+
 
 1. pg 1.1: Database adapter gem for PostgreSQL. Provides support for connecting to a PostgreSQL database in Rails.
 2. faker: Gem used for generating random test data. Useful for populating the database with dummy data during development or testing.
@@ -74,6 +94,8 @@ rails server
 
 
 - Execute this command in the terminal while being in the root directory of your Rails project. The server will start, and you can access your application at **http://localhost:3000**.
+
+## ENDPPOINTS
 
 **Make sure to have all the dependencies installed and the database properly configured before starting the server.**
 All endpoints were developed  according to the specifications **OpenAPI-Specification**
